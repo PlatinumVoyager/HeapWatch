@@ -4,3 +4,6 @@
 
 <p>Enables the basic feature set of viewing the current Process Control Block structure field members
     pertaining to the information stored in the target processes virtual memory address space by viewing the currently allotted heap structure control blocks (heap blocks allocated within the VMA space of the target executable once it has been loaded into memory) for each contiguous region of memory that contains a valid heap block identifier (HEAP ID)</p>
+
+## Usage
+Execute: `.\heapwatch.exe PID`
