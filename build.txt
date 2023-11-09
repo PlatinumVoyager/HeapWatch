@@ -1,0 +1,8 @@
+## BUILD INSTRUCTIONS FOR HEAP WATCH
+
+1. Download/access Visual Studio Developer toolset.
+	* This set includes the "cl" C/C++ compiler.
+
+2. Execute: "cl /EHsc heapwatch.c"
+3. RUN THE TARGET EXECUTABLE
+	* ".\heapwatch.exe <TARGET PID>"
