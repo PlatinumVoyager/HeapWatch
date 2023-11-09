@@ -103,7 +103,7 @@ void peekOverHeapList(DWORD procPID)
     wchar_t *procNameExe = QueryProcInfo(procPID).szExeFile;
     CloseHandle(pHeapSnapshot);
 
-    printf("\n## END OF HEAP LISTING FOR TARGET PROCESS: \"%hs\" ...\033[0;32mDONE\033[0;m\n", procNameExe);
+    wprintf(L"\n## END OF HEAP LISTING FOR TARGET PROCESS: \"%s\" ...\033[0;32mDONE\033[0;m\n", procNameExe);
 }
 
 
