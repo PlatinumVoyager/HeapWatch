@@ -1,3 +1,5 @@
+// 2023. PlatinumVoyager. Free to use/modify.
+
 #include <Windows.h>
 #include <wchar.h>
 #include <tlhelp32.h>
