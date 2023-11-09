@@ -3,6 +3,6 @@
 1. Download/access Visual Studio Developer toolset.
 	* This set includes the "cl" C/C++ compiler.
 
-2. Execute: "cl /EHsc heapwatch.c"
+2. Execute: "cl /EHsc .\src\heapwatch.c /Fo:.\obj\hw.obj /Fe:.\bin\heapwatch.exe"
 3. RUN THE TARGET EXECUTABLE
 	* ".\heapwatch.exe <TARGET PID>"
